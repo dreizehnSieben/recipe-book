@@ -11,7 +11,7 @@ describe('Recipe', () => {
                 'Zutat 3',
                 'Beschreibung',
                 false,
-                new Date(Date.now()),
+                new Date(),
             );
 
             expect(recipe.title).toBe('Rezept');
